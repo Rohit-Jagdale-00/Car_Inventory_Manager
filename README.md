@@ -57,7 +57,6 @@ Add the following PostgreSQL JDBC dependency to your `pom.xml`:
 
 🚗 Car Inventory Manager: SQL Schema for Tables
 ```
----
 
 -- 1. Create 'cars' table
 CREATE TABLE cars (
