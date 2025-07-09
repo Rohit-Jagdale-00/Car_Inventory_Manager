@@ -94,7 +94,8 @@ Before running the project, ensure the following are installed:
 ---
 📷 Console Output
 
-![Screenshot 2025-07-09 223241](https://github.com/user-attachments/assets/2db15828-eea9-4cc1-ad16-2242a05dbedc)
+![Screenshot 2025-07-09 223241](https://github.com/user-attachments/assets/daebfe32-e4ba-4269-b83f-8dbeeae6435f)
+
 
 
 ---
