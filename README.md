@@ -39,7 +39,49 @@ CarInventoryManager/
 └── pom.xml
 ```
 
+---
+🚗 Car Inventory Manager: SQL Schema for Tables
+```
+-- 
 
+-- 1. Create 'cars' table
+CREATE TABLE cars (
+    carId INT PRIMARY KEY,
+    make VARCHAR(50),
+    model VARCHAR(50),
+    year INT,
+    price DECIMAL(10,2),
+    status VARCHAR(20)
+);
+
+-- 2. Create 'customers' table
+CREATE TABLE customers (
+    customerId INT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phoneNumber VARCHAR(15),
+    address VARCHAR(255)
+);
+
+-- 3. Create 'bookings' table (with foreign keys referencing 'cars' and 'customers')
+CREATE TABLE bookings (
+    bookingId INT PRIMARY KEY,
+    carId INT REFERENCES cars(carId) ON DELETE CASCADE,
+    customerId INT REFERENCES customers(customerId) ON DELETE CASCADE,
+    bookingDate DATE NOT NULL,
+    returnDate DATE NOT NULL,
+    status VARCHAR(20)
+);
+
+-- 4. Create 'service_records' table
+CREATE TABLE service_records (
+    recordId INT PRIMARY KEY,
+    serviceDate DATE NOT NULL,
+    description TEXT,
+    cost DECIMAL(10,2)
+);
+
+```
 ---
 
 ## 🚗 Features
