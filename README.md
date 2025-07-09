@@ -40,9 +40,24 @@ CarInventoryManager/
 ```
 
 ---
+## ⚙️ Dependencies
+
+Add the following PostgreSQL JDBC dependency to your `pom.xml`:
+
+```xml
+<!-- PostgreSQL JDBC Dependency -->
+<dependency>
+  <groupId>org.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
+  <version>42.7.7</version>
+</dependency>
+
+```
+---
+
 🚗 Car Inventory Manager: SQL Schema for Tables
 ```
--- 
+---
 
 -- 1. Create 'cars' table
 CREATE TABLE cars (
@@ -109,20 +124,6 @@ CREATE TABLE service_records (
 
 ---
 
-## ⚙️ Dependencies
-
-Add the following PostgreSQL JDBC dependency to your `pom.xml`:
-
-```xml
-<!-- PostgreSQL JDBC Dependency -->
-<dependency>
-  <groupId>org.postgresql</groupId>
-  <artifactId>postgresql</artifactId>
-  <version>42.7.7</version>
-</dependency>
-
-```
----
 
 💻 Prerequisites
 
@@ -138,7 +139,6 @@ Before running the project, ensure the following are installed:
 📷 Console Output
 
 ![Screenshot 2025-07-09 223241](https://github.com/user-attachments/assets/daebfe32-e4ba-4269-b83f-8dbeeae6435f)
-
 
 
 ---
