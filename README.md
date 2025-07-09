@@ -83,6 +83,7 @@ Add the following PostgreSQL JDBC dependency to your `pom.xml`:
 ---
 
 💻 Prerequisites
+
 Before running the project, ensure the following are installed:
 
 - Java Development Kit (JDK 17 or higher)
