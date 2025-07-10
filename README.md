@@ -135,7 +135,7 @@ Before running the project, ensure the following are installed:
 - Any Java IDE (e.g., IntelliJ IDEA, Eclipse, VS Code)
 
 ---
-📷 Console Output
+📷 Console Output(Screenshot)
 
 ![Screenshot 2025-07-09 223241](https://github.com/user-attachments/assets/daebfe32-e4ba-4269-b83f-8dbeeae6435f)
 
